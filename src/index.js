@@ -48,11 +48,11 @@ function renderMarkupCountry(data) {
       <img src="${flags.svg}" alt="flag" class="country_img">
       <h2>${name.official}</h2>
       </div> 
-      <p><span class="country_description">Capital:</span> ${capital}</p>
-      <p><span class="country_description">Population:</span> ${(
+      <p class="country_description"><span></span>Capital:</span> ${capital}</p>
+      <p class="country_description"><span>Population:</span> ${(
         population / 1000000
       ).toFixed(2)} million</p>
-      <p><span class="country_description">Languages:</span>  ${Object.values(
+      <p class="country_description"><span>Languages:</span>  ${Object.values(
         languages
       )}</p>`;
     })
